@@ -17,27 +17,25 @@ Train Sets:
   Cats: 4000
   Dogs: 4000
   
-3.Libraries used:
-  Keras
-  scikit-learn
-  Tensorflow
+Libraries used: 
+- Keras 
+- scikit-learn 
+- Tensorflow
 
 Program run on:
-  Spyder
-  Python Version 3.5
-  
+- Spyder
+- Python 3.5
 
-Steps Applied :
-  Convolution
-  Pooling
-  First Two Steps repeated to increase accuracy
-  Flattening
-  Full Connection Establishment
-  Fitting Image to CNN
+Steps Applied : 
+1. Convolution 
+2. Pooling 
+3. First Two Steps repeated to increase accuracy 
+4. Flattening 
+5. Full Connection Establishment 
+6. Fitting Image to CNN
 
 
-NOTE: The program was run on windows 10, 64 bit.
-The epoch rate was pretty slow, to fix the issue, in fit_generator, 'steps_per_epoch' and 'validation_steps' were divied by its batch_size.
-It decreased the overall execution time.
-Overall accuracy of the Test set to Training set : 0.8870:0.8115
+NOTE: *The program was run on windows 10, 64 bit. The epoch rate was pretty slow, to fix the issue, in fit_generator, 'steps_per_epoch' and 'validation_steps' were divied by its batch_size. It decreased the overall execution time.*
+Overall accuracy of the Test set to Training set : 
+'0.8870:0.8115'
 Accuracy may differ on different systems.
